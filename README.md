@@ -1,5 +1,7 @@
 ## Odin Recipes: Elevating Culinary Craftsmanship
 
+Live View: https://vaktavyasheelpandey.github.io/Odin-recipes
+
 ![Odin Icon](https://github.com/user-attachments/assets/acc3d87d-bed1-4eef-ae1d-c4b4727aa731)
 
 
