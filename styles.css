@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Header */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff7e5f;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.recipe:hover {
+    transform: translateY(-10px);
+}
+
+.recipe h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff7e5f;
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recipe ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe ul li {
+    background: rgba(255, 126, 95, 0.1);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.recipe p {
+    line-height: 1.6;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.recipe {
+    animation: slideIn 0.5s ease;
+}
